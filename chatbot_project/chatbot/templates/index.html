@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Cavli Chatbot</title>
+</head>
+<body>
+    <h1>Cavli Chatbot</h1>
+    <div id="chatbox">
+        <div id="chat-log"></div>
+        <input type="text" id="user-input" placeholder="Ask a question..." />
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script src="{% static 'js/chatbot.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;  /* Light grey background for the page */
+    color: #333;  /* Default text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* 3D effect for the heading */
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;  /* Green color for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(0, 0, 0, 0.2); /* 3D effect */
+    transform: perspective(5px) translateZ(0);
+}
+
+/* Chatbox styling */
+#chatbox {
+    width: 400px;
+    max-width: 100%;
+    background-color: #ffffff;  /* White background for the chat area */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9f7ef; /* Light greenish background color */
+}
+
+/* Chat log styling */
+#chat-log {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for user input */
+#user-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;  /* Light grey input background */
+}
+
+/* Send button styling */
+#send-btn {
+    width: 18%;
+    padding: 10px;
+    background-color: #4CAF50;  /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#send-btn:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
+
+#send-btn:active {
+    background-color: #388e3c;  /* Even darker green when button is clicked */
+}
+
+/* Styling for "User" and "Bot" labels */
+#chat-log p.user-label {
+    color: #1f78b4;  /* Blue color for User label */
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#chat-log p.bot-label {
+    color: #d74e09;  /* Orange color for Bot label */
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* User message styling */
+#chat-log p.user {
+    color: #1f78b4;  /* Blue color for user messages */
+    font-weight: normal;
+    margin-left: 15px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Bot message styling */
+#chat-log p.bot {
+    color: #d74e09;  /* Orange color for bot messages */
+    font-weight: normal;
+    margin-left: 15px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animation for fading in new messages */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Custom scrollbar */
+#chat-log::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-log::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+}
+
+#chat-log::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+#chat-log::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

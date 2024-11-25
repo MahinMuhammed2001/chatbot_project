@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cavlichatbot",
+  "private_key_id": "42048d5a0d9861a5a781da636666a53d8f0c08a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC27Sx5E7c6Jv38\nJ6Nt7EJ17cFWeNFtF3lmGPd4ep+4DdDNLMU4Tpp/knDK3/qX6k93paNg6cugJZev\ndBrE7UNyurEt6rA0s/PPaTfu6DEvA8pUBCHuCPAV/bgCA3a3CHujWJxwK5+4bStS\n8qOILFpMzVyv1rZE9mh06e4JJ+5CHiAXqgu3TwrF6+++OrGm5auNLkanSQO2PbDP\nwCVBD9QgDQR9a33ZGC4+gfabNu34objy28+sH8THA5wXfPWZlm+fCrAhzyICt2YH\nfqwQJK1QL9HG3ly6EV7W+6ao+6y4xDRoeA+21UcjihYzMO+vbTXM51b5SXKen0oX\ncXoo92qLAgMBAAECggEARL6LCRFsuVDwADQRSf0Q2Oq5zrpm0d2RhNn7Hm7O2Udv\n4btifo+jpi+tbcCQl0i6Bpfb907FdHDMOWajrMARqesZLM1W3OeHx7meCI1/9lAx\nWDOZYLBBMbKA1Vjh41UvyapCWDE8u/1i27BN3p30bYp7u6UwKGiFxvImv5AfDP9M\nLWyjdFryk1JkX3N9C1mGaf59bVW5vDKpbfCo3t3R9Xl/8RGYkbL9jT74c3o6pz0I\nMT+LF/Jj4a4luPzm+hsAWs10sNuWywSQ4a72okRnx92TO9i6ZPEjubIkdPScyyJT\nhj0JZsAws9iGRbG8b64MNkaXD5/auBbUtWfOkk1KcQKBgQDpCiX94DQpBFB9zKw7\nholc7/H7klQ2CqhDjnQBqwdO6wGRi+Ge7r2dVuGDi4fdST1U051tlhZR35XmTEWC\npL2pjy0YQDaw0V5lCilHCcB2sRizXc7SQsJ8NN0OIYHheabOLoijLKgR2hJP58RV\nsKmbHB1Chqk1/kjqdHjW/KIigwKBgQDI8wso6C23itxsN81iETMooNKRqR/trMkJ\nwUqSSi3jtWtaOFauzsr02nulhUxRhQSf2DD7PYJd8CYm5GqJgwpUJJ1PY3KsTxeg\nBN764wpKzeRU2eFbUjdF48K1hIs6Snwi1aKij5X6PKOVyvOB1akBqb5/RxMsQYaV\njzzS7Fj5WQKBgE664/zySwz0bTEi/akambuxQMJqPFMJpLE2JlEN8+kgkiYW6QGl\nzJ+kY4nqkNsczEClQZFtXFsKu3zTlcQ+Xekz+tsvjoqMIWTnWuyqCcDPsfWfIql8\nbnJB9dC5V0TSsZ0EsZrXEmz9jKQ8O+NrTNGfXO9FyVL5dq7m7JBNR4V7AoGBAKCM\nlmj7f7M6LbwEpYJprY8TVslr74eMWh8CINtaiul4hCnUA2Ws8LjKaqmnI3+qIDS5\nnQDOdv8opMLEEl6FpNXvXwQTt4X1tzFxUtnuVcXIVFp6rbOxr1mWjHVMTZSn+CA4\nwbTRtYj1s9k1CnK8S0h53yp/ldDxFV8ezwDSNpAZAoGBAM2B07Eh85B82o++jplv\nVT0Gp2MxHaWXPvqYY70hzHD/Nkn/ZTc1gNcb9/f56JW/ph1AMCt6mUo4BXS6csm6\nsL3ECQIbM2bV9avo4VPYS7vC96R1v4ZQVXHcuxpNEcZ5sucL9tWVDSNV5yhY3J5E\nGDNYCmDuB2MsnoPuhVAINrrZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflowcavlichatbot@cavlichatbot.iam.gserviceaccount.com",
+  "client_id": "108863266360869503206",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflowcavlichatbot%40cavlichatbot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
